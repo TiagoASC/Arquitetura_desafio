@@ -1,0 +1,121 @@
+*{
+    font-family: 'Wix Madefor Text', sans-serif;
+    margin: 00px;
+    color: #303030;
+}
+#faixa-superior{
+    width: 1440px;
+    margin-right: 30%;
+}
+#titulo-superior{
+    font-size: 35px;
+    position: absolute;
+    color: white  ;
+    text-align: center;
+    top: 220px;
+    width: 700px;
+    line-height: 70px;
+    height: 0px;
+}
+#sub-titulo{
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 0px;
+    width: 370px;
+    line-height: 600px;
+    height: 0px;
+}
+#faixa-superior2{
+    font-size: 20px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+    width: 1440px;
+    height: 229px;
+    margin-top: 0px; 
+}
+#texto{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+#imagem-lateral{   
+position: absolute;
+width: 510px;
+height: 605px;
+left: 776px;
+top: 781px;
+background: url(image);
+border-radius: 30px;
+}
+#Formulario{
+    position: absolute;
+    width: 1440px;
+    height: 638px;
+    left: 0px;
+    top: 1478px;
+    background-color: #303030;
+}
+#formulario{
+    text-align: center;
+}
+#titulo-formulario{
+    position: absolute;
+    text-align: center;
+    font-size: 25spx;
+    margin: 10px;
+    margin-top: 100px;
+    left: 430px;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    position: absolute;
+    width: 193px;
+    height: 30px;
+    left: 560px;
+    background-color: #c07212;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #eca650;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #070250a9;
+    transition-duration: 0.3s;
+}
+.nome{
+margin-top: 200px;
+position: relative;
+width: 408px;
+height: 72px;
+left: 466px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.email{
+position: relative;
+width: 408px;
+height: 72px;
+left: 466px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
